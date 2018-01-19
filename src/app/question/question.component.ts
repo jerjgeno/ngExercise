@@ -20,6 +20,13 @@ export class QuestionComponent implements OnInit {
     actual: 0
   };
 
+  pullups: Exercise = {
+    id: 3,
+    ask: 'How many pull-ups did you do today?',
+    target: 0,
+    actual: 0
+  };
+
   constructor() { }
 
   ngOnInit() {
